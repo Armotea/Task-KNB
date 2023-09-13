@@ -8,6 +8,9 @@ print("""Игра "Камень, ножницы, бумага"
 tim_choice = int(input("Знак выбирает Тимур: "))
 rus_choice = int(input("Знак выбирает Руслан: "))
 
+if ((tim_choice > 3) or (tim_choice < 1)) or ((rus_choice > 3) or (rus_choice < 1)):
+    print("Вы ввели некорректное значение!!!")
+
 
 
 
